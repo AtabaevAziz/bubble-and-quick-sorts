@@ -17,4 +17,12 @@ function tournamentWinner(competitions, results) {
     return currentWinner;
 }
 
-console.log(tournamentWinner([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10]));
+competitions = [
+    ["HTML", "C#"],
+    ["C#", "Python"],
+    ["Python", "HTML"],
+]
+
+const results = [0, 0, 1];
+
+console.log(tournamentWinner(competitions, results));

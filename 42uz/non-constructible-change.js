@@ -10,4 +10,6 @@ function nonConstructibleChange(coins) {
     return currentSum + 1;
 }
 
-console.log(nonConstructibleChange([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10]));
+console.log(nonConstructibleChange([1, 2, 3, 4, 5, 6, 7]));
+console.log(nonConstructibleChange([109, 2000, 8765, 19, 18, 17, 16, 8, 1, 1, 2, 4]));
+console.log(nonConstructibleChange([5, 7, 1, 1, 2, 3, 22]));
