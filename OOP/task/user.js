@@ -1,5 +1,8 @@
 class User {
     constructor(name) {
+        // if (new.target === User) {
+        //     throw new Error("Нельзя создать User");
+        // }
         this.name = name;
     }
 
@@ -52,5 +55,6 @@ const university = new University();
 
 university.addUser(new Student("Иван", 2));
 university.addUser(new Teacher("Анна", "JavaScript"));
+// university.addUser(new User());
 
 university.showUsers();
